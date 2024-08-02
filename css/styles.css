@@ -77,6 +77,7 @@ label {
 
 input {
   font-family: inherit;
+  outline: none;
 }
 
 /* #endregion main styles */
@@ -621,7 +622,6 @@ input {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: var(--navy-blue);
-  outline: none;
 }
 
 /* .footer-input-email:placeholder-shown {
