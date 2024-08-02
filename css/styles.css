@@ -671,13 +671,23 @@ input {
 .modal {
   background-color: var(--dairy);
 
-  max-width: 408px;
-  max-height: 584px;
+  width: 408px;
+  height: 584px;
   border-radius: 4px;
   padding: 24px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   overflow-y: auto;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-label {
+  display: flex;
+  flex-direction: column;
 }
 
 /* #endregion modal */
