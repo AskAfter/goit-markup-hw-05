@@ -731,19 +731,14 @@ fieldset {
   fill: var(--white);
 }
 
-.modal-group {
-  display: flex;
-  flex-direction: column;
-}
-
 .modal-header {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 24px;
+  color: var(--navy-blue);
 }
 
 .modal-form {
