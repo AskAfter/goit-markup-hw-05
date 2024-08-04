@@ -869,7 +869,7 @@ fieldset {
 }
 
 .user-privacy-label {
-  display: flex;
+  /* display: flex; */
   gap: 8px;
   font-size: 12px;
   font-weight: 400;
