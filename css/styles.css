@@ -859,7 +859,7 @@ fieldset {
 }
 
 .user-privacy-input:checked + .user-privacy-label > .checkbox {
-  background-color: var(--iris);
+  background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
 }
