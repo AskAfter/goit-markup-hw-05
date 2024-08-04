@@ -588,9 +588,10 @@ fieldset {
 
 .footer-third {
   display: flex;
+  flex-direction: column;
 }
 
-.footer-form-box {
+.footer-form {
   display: flex;
   gap: 24px;
 }
