@@ -814,19 +814,18 @@ fieldset {
   box-sizing: border-box;
   width: 360px;
   height: 120px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 16px;
+  padding: 8px 16px;
   font-size: 12px;
   font-weight: 400;
-  line-height: 14px; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.48px;
-  color: var(--navy-blue);
+  color: var(--navy-blue-modal);
   border: 1px solid var(--navy-blue-modal);
   border-radius: 4px;
-  outline: none;
-  background-color: var(--dairy);
-  transition: border cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
+  resize: none;
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea::placeholder-shown {
@@ -862,7 +861,7 @@ fieldset {
   gap: 8px;
   font-size: 12px;
   font-weight: 400;
-  line-height: 14px; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.48px;
   color: var(--light-slate);
 }
@@ -874,6 +873,16 @@ fieldset {
   letter-spacing: 0.48px;
   text-decoration-line: underline;
   color: var(--iris);
+}
+
+.checkbox {
+  display: inline-flex;
+  border: 1px solid var(--navy-blue-modal);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
 }
 
 .modal-button {
