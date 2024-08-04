@@ -621,6 +621,9 @@ fieldset {
   box-sizing: border-box;
   width: 264px;
   height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0, 04em;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -628,20 +631,24 @@ fieldset {
   border: 1px solid var(--WHITE, #fff);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: var(--navy-blue);
+  background-color: transparent;
+}
+
+.footer-button-icon {
+  fill: var(--white);
 }
 
 /* .footer-input-email:placeholder-shown {
   border: 1px solid var(--WHITE, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 } */
-.footer-button::after {
+/* .footer-button::after {
   content: ' ';
   width: 24px;
   height: 24px;
   background-image: url(../images/send.png);
   background-size: contain;
-}
+} */
 
 .footer-button:hover,
 .footer-button:focus {
