@@ -859,9 +859,9 @@ fieldset {
 }
 
 .user-privacy-input:checked + .user-privacy-label > .checkbox {
-  background-color: #404bbf;
+  background-color: var(--iris);
   border: none;
-  fill: #ffffff;
+  fill: var(--cloud);
 }
 
 .user-privacy-box {
